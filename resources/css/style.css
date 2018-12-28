@@ -3,8 +3,63 @@ html {
   font-size: 16px;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+h1 {
+
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
 
 /* HEADER */
+header {
+  flex-wrap: nowrap;
+  height: 4rem;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+.logo img {
+  height: 2.5rem;
+  width: auto;
+}
+
+nav.desktop {
+  margin-right: 1.5rem;
+}
+
+nav.desktop ul {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+nav.desktop li {
+  margin-left: 1rem;
+  font-size: 1.175rem;
+}
+
+nav.desktop li:first-child {
+  margin-left: 0;
+}
+
+nav.desktop a {
+  color: black;                     /* COLOR: BLACK */
+  text-decoration: none;
+}
+
 .mobile {
   display: none;
 }
