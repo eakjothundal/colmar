@@ -30,6 +30,10 @@ a {
   text-decoration: none;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 
 /* HEADER */
 header {
@@ -41,7 +45,6 @@ header {
   flex-grow: 1;
   align-items: center;
   margin-left: 1.5rem;
-  font-weight: bold;
 }
 
 .logo span {
@@ -103,13 +106,8 @@ nav.desktop li:first-child {
   margin: 0 auto;
 }
 
-.banner .content h1 {
-  font-weight: bold;
-}
-
 .banner .content h2 {
   margin: 2rem 0;
-  font-weight: bold;
 }
 
 .banner .btn {
@@ -158,10 +156,6 @@ nav.desktop li:first-child {
   padding-left: 1.5rem;
 }
 
-.article h2 {
-  font-weight: bold;
-}
-
 .article .content {
   width: 50%;
   padding-left: 1.5rem;
@@ -196,8 +190,60 @@ nav.desktop li:first-child {
 }
 
 
-/* .learning,
-.thesis-exhibit,
+/* START LEARNING */
+.learning {
+  background-color: #E9E9E9;          /* COLOR: LIGHT GRAY */
+}
+
+.learning .title {
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.courses {
+  width: 100%;
+  padding: 0 4.5rem 2rem 4.5rem;
+  justify-content: center;
+}
+
+.course {
+  width: 24.5%;
+  background-color: white;            /* COLOR: WHITE */
+}
+
+.course img {
+  width: 100%;
+  height: auto;
+}
+
+.course p {
+  padding-top: 0.5rem;
+}
+
+.course .content {
+  padding: 1rem 1rem 1.5rem 1rem;
+}
+
+.middle {
+  margin: 0 2rem;
+}
+
+.top {
+  margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .thesis-exhibit,
 .footer{
   display: none;
 } */
