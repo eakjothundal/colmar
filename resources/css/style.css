@@ -6,7 +6,6 @@ html {
 .container {
   display: flex;
   width: 100%;
-  flex-wrap: wrap;
 }
 
 h1 {
@@ -143,7 +142,7 @@ nav.desktop li:first-child {
   margin-bottom: 2rem;
 }
 
-.sidebar {
+.articles .sidebar {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -193,6 +192,7 @@ nav.desktop li:first-child {
 /* START LEARNING */
 .learning {
   background-color: #E9E9E9;          /* COLOR: LIGHT GRAY */
+  flex-wrap: wrap;
 }
 
 .learning .title {
@@ -202,6 +202,7 @@ nav.desktop li:first-child {
 }
 
 .courses {
+  flex-wrap: wrap;
   width: 100%;
   padding: 0 4.5rem 2rem 4.5rem;
   justify-content: center;
@@ -234,6 +235,60 @@ nav.desktop li:first-child {
 }
 
 
+/* THESIS EXHIBIT */
+.thesis-ex {
+  flex-wrap: nowrap;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.thesis-ex .main {
+  width: 55%;
+  padding: 0rem 1.5rem 2rem 1.5rem;
+}
+
+.thesis-ex .main h2 {
+  padding-bottom: 0.5rem;
+}
+
+.thesis-ex video {
+  width: 100%;
+  height: auto;
+  padding-bottom: 1.5rem;
+}
+
+.thesis-ex .sidebar {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.thesis-ex .sidebar .content {
+  margin-left: 1rem;
+}
+
+.thesis-ex .sidebar .content p {
+  margin-top: 0.5rem;
+}
+
+.thesis {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0 1rem 1rem;
+}
+
+.sidebar img {
+  width: 30%;
+  height: 50%;
+}
+
+.fisma {
+  background-color: #E9E9E9;
+}
 
 
 
@@ -243,7 +298,9 @@ nav.desktop li:first-child {
 
 
 
-/* .thesis-exhibit,
+
+
+
 .footer{
   display: none;
-} */
+}
