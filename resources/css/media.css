@@ -140,14 +140,14 @@
   }
 }
 
-  /* LESS THAN 645px */
-  @media only screen and (max-width: 645px) {
-    /* START LEARNING */
-    .learning .title {
-      padding: 2rem 0 1.5rem 0;
-    }
-
-    .courses.mobile li {
-      width: 85%;
-    }
+/* LESS THAN 645px */
+@media only screen and (max-width: 645px) {
+  /* START LEARNING */
+  .learning .title {
+    padding: 2rem 0 1.5rem 0;
   }
+
+  .courses.mobile li {
+    width: 85%;
+  }
+}
