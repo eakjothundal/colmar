@@ -60,7 +60,8 @@ nav.desktop {
   margin-right: 1.5rem;
 }
 
-nav.desktop ul {
+nav.desktop ul,
+nav.mobile ul  {
   display: flex;
   height: 100%;
   align-items: center;
@@ -75,8 +76,14 @@ nav.desktop li:first-child {
   margin-left: 0;
 }
 
-.mobile {
+header .mobile {
+  width: 100%;
   display: none;
+}
+
+header .mobile li{
+  width: 25%;
+  text-align: center;
 }
 
 
@@ -124,7 +131,7 @@ nav.desktop li:first-child {
 }
 
 .articles .main {
-  width: 60%;
+  width: 55%;
   padding: 2rem 1.5rem;
   border-right: 2px solid lightGray;  /* COLOR: GRAY */
 }
@@ -161,8 +168,8 @@ nav.desktop li:first-child {
 }
 
 .article img {
-  width: 32%;
-  height: 70%;
+  width: 30%;
+  height: 50%;
 }
 
 .article .middle {
@@ -201,37 +208,45 @@ nav.desktop li:first-child {
   padding: 2rem 0;
 }
 
-.courses {
+.courses.desktop {
   flex-wrap: wrap;
   width: 100%;
   padding: 0 4.5rem 2rem 4.5rem;
   justify-content: center;
 }
 
-.course {
+.desktop .course {
   width: 24.5%;
   background-color: white;            /* COLOR: WHITE */
 }
 
-.course img {
+.desktop .course img {
   width: 100%;
   height: auto;
 }
 
-.course p {
+.desktop .course p {
   padding-top: 0.5rem;
 }
 
-.course .content {
+.courses.desktop .content {
   padding: 1rem 1rem 1.5rem 1rem;
 }
 
-.middle {
+.courses.desktop .middle {
   margin: 0 2rem;
 }
 
-.top {
+.courses.desktop .top {
   margin-bottom: 2rem;
+}
+
+.courses.mobile {
+  display: none;
+}
+
+.courses.mobile li:nth-child(1n+2) {
+  margin-top: 0.5rem;
 }
 
 
@@ -248,7 +263,7 @@ nav.desktop li:first-child {
 
 .thesis-ex .main {
   width: 55%;
-  padding: 0rem 1.5rem 2rem 1.5rem;
+  padding: 0 1.5rem 2rem 1.5rem;
 }
 
 .thesis-ex .main h2 {
