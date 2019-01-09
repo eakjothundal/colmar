@@ -9,13 +9,11 @@ html {
 }
 
 h1 {
-  font-size: 2.95rem;
-  font-family: "Allerta Stencil", sans-serif;
+  font-size: 3rem;
 }
 
 h2 {
   font-size: 1.5rem;
-  font-weight: 700;
 }
 
 h3 {
@@ -35,6 +33,10 @@ a {
   font-weight: bold;
 }
 
+.italic {
+  font-style: italic;
+}
+
 
 /* HEADER */
 header {
@@ -49,6 +51,10 @@ header {
   margin-left: 1.5rem;
 }
 
+.logo h2 {
+  font-size: 1.5rem;
+}
+
 .logo span {
   color: lightGray;                 /* COLOR: GRAY */
   font-weight: 400;
@@ -61,7 +67,7 @@ header {
 
 nav.desktop {
   margin-right: 1.5rem;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Libre Franklin", sans-serif;
 }
 
 nav.desktop ul,
@@ -95,7 +101,7 @@ header .mobile li{
 .banner {
   background-color: lightGray;           /* COLOR: GRAY */
   flex-wrap: nowrap;
-  font-family: "Allerta Stencil", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
 }
 
 .study-bench {
@@ -117,8 +123,12 @@ header .mobile li{
   margin: 0 auto;
 }
 
-.banner .content h2 {
-  margin: 2rem 0;
+.banner .content h1 {
+  font-family: "Libre Baskerville", serif;
+}
+
+.banner .content h2.subtitle {
+  margin: 3rem 0 2rem 0;
 }
 
 .banner .btn {
@@ -135,10 +145,21 @@ header .mobile li{
   flex-wrap: nowrap;
 }
 
+.articles h1,
+.articles h2 {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.articles p {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 0.9rem;
+}
+
 .articles .main {
   width: 55%;
   padding: 2rem 1.5rem;
   border-right: 2px solid lightGray;  /* COLOR: GRAY */
+  flex-shrink: 1;
 }
 
 .articles .main img {
@@ -148,6 +169,7 @@ header .mobile li{
 
 .articles .main h1 {
   margin: 2rem 0 1.5rem 0;
+  font-size: 2.75rem;
 }
 
 .articles .main p {
@@ -156,6 +178,7 @@ header .mobile li{
 
 .articles .sidebar {
   flex-grow: 1;
+  flex-shrink: 6;
   display: flex;
   flex-direction: column;
   padding: 2rem 0;
@@ -211,6 +234,7 @@ header .mobile li{
   width: 100%;
   text-align: center;
   padding: 2rem 0;
+  font-family: "Libre Baskerville", sans-serif;
 }
 
 .courses.desktop {
@@ -218,6 +242,11 @@ header .mobile li{
   width: 100%;
   padding: 0 4.5rem 2rem 4.5rem;
   justify-content: center;
+}
+
+.courses.desktop h2{
+  font-family: "Libre Franklin", sans-serif;
+  padding-bottom: 0.5rem;
 }
 
 .desktop .course {
@@ -264,6 +293,7 @@ header .mobile li{
   width: 100%;
   text-align: center;
   padding: 2rem 0;
+  font-family: "Libre Baskerville", sans-serif;
 }
 
 .thesis-ex .main {
@@ -272,13 +302,14 @@ header .mobile li{
 }
 
 .thesis-ex .main h2 {
-  padding-bottom: 0.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 2.75rem;
 }
 
 .thesis-ex video {
   width: 100%;
   height: auto;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.2rem;
 }
 
 .thesis-ex .sidebar {
@@ -307,14 +338,14 @@ header .mobile li{
 }
 
 .fisma {
-  background-color: #E9E9E9;
+  background-color: #E9E9E9;             /* COLOR: LIGHT GRAY */
 }
 
 
 /* FOOTER */
 .footer {
   flex-wrap: nowrap;
-  border-top: 1px solid lightGray;
+  border-top: 1px solid lightGray;      /* COLOR: LIGHT GRAY */
 }
 
 .footer .copyright {
