@@ -79,7 +79,11 @@
     display: initial;
   }
 
+}
 
+
+/* LESS THAN 720px */
+@media only screen and (max-width: 790px) {
   /* BANNER */
   .banner {
     flex-direction: column;
@@ -115,11 +119,6 @@
     font-size: 1.5rem;
   }
 
-}
-
-
-/* LESS THAN 720px */
-@media only screen and (max-width: 790px) {
   /* START LEARNING */
   .learning {
     padding-bottom: 2rem;
