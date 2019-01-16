@@ -84,41 +84,6 @@
 
 /* LESS THAN 720px */
 @media only screen and (max-width: 790px) {
-  /* BANNER */
-  .banner {
-    flex-direction: column;
-  }
-
-  .study-bench {
-    padding: 0;
-    width: 100%;
-    height: 20rem;
-    background-image: url(../images/banner.jpg);
-    background-size: cover;
-  }
-
-  .study-bench img {
-    display: none;
-  }
-
-  .banner .content {
-    max-width: 100%;
-    padding: 2rem 1rem;
-    margin: 0;
-    text-align: center;
-  }
-
-  .banner .btn {
-    background-color: gray;
-    text-align: center;
-    width: 55%;
-    padding: 1rem 0;
-  }
-
-  .banner .btn {
-    font-size: 1.5rem;
-  }
-
   /* START LEARNING */
   .learning {
     padding-bottom: 2rem;
@@ -169,6 +134,41 @@
 
 /* LESS THAN 645px */
 @media only screen and (max-width: 645px) {
+  /* BANNER */
+  .banner {
+    flex-direction: column;
+  }
+
+  .study-bench {
+    padding: 0;
+    width: 100%;
+    height: 20rem;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+  }
+
+  .study-bench img {
+    display: none;
+  }
+
+  .banner .content {
+    max-width: 100%;
+    padding: 2rem 1rem;
+    margin: 0;
+    text-align: center;
+  }
+
+  .banner .btn {
+    background-color: gray;
+    text-align: center;
+    width: 55%;
+    padding: 1rem 0;
+  }
+
+  .banner .btn {
+    font-size: 1.5rem;
+  }
+  
   /* START LEARNING */
   .learning .title {
     padding: 2rem 0 1.5rem 0;
