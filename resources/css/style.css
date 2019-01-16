@@ -80,6 +80,7 @@ nav.mobile ul  {
 nav.desktop li {
   margin-left: 1rem;
   font-size: 1.175rem;
+  transition: all 1s ease-out;
 }
 
 nav.desktop li:first-child {
@@ -137,6 +138,13 @@ header .mobile li{
   width: 35%;
   margin: 0 auto;
   padding: 0.5rem 0;
+  transition: all 100ms ease-out;
+}
+
+.banner .btn:hover {
+  background-color: #E9E9E9;
+  border: 3px solid black;
+  color: black;
 }
 
 
